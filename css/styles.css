@@ -1449,72 +1449,72 @@ form {
 /***********************/
 /*     16. Contact     */
 /***********************/
-.form-3 {
+.contact-details {
 	padding-top: 6.125rem;
 	padding-bottom: 5.125rem;
 	background-color: #ffbd50;
 }
 
-.form-3 .text-container {
+.contact-details .text-container {
 	margin-bottom: 3rem;
 }
 
-.form-3 h2 {
+.contact-details h2 {
 	margin-bottom: 1.125rem;
 }
 
-.form-3 p {
+.contact-details p {
 	color: #333;
 	margin-bottom: 2rem;
 }
 
-.form-3 h3 {
+.contact-details h3 {
 	margin-bottom: 0.875rem;
 }
 
-.form-3 .list-unstyled,
-.form-3 .list-unstyled a {
+.contact-details .list-unstyled,
+.contact-details .list-unstyled a {
 	color: #333;
 }
 
-.form-3 .list-unstyled .fas {
+.contact-details .list-unstyled .fas {
 	color: #333;
 	font-size: 1rem;
 	line-height: 1.625rem;
 }
 
-.form-3 .list-unstyled .media-body {
+.contact-details .list-unstyled .media-body {
 	margin-left: 0.75rem;
 }
 
-.form-3 .list-unstyled .media-body .fas.fa-globe {
+.contact-details .list-unstyled .media-body .fas.fa-globe {
 	margin-left: 1.125rem;
 	margin-right: 0.75rem;
 }
 
-.form-3 .form-control-input,
-.form-3 .form-control-textarea {
+.contact-details .form-control-input,
+.contact-details .form-control-textarea {
 	border: 1px solid #ffedd0;
 	background-color: #ffedd0;
 }
 
-.form-3 .form-control-input:hover,
-.form-3 .form-control-textarea:hover {
+.contact-details .form-control-input:hover,
+.contact-details .form-control-textarea:hover {
 	border: 1px solid #fff;
 }
 
-.form-3 .help-block,
-.form-3 .checkbox,
-.form-3 .checkbox a {
+.contact-details .help-block,
+.contact-details .checkbox,
+.contact-details .checkbox a {
 	color: #333;
 }
 
-.form-3 .form-control-submit-button {
+.contact-details .form-control-submit-button {
 	border: 0.125rem solid #333;
 	background-color: transparent;
 }
 
-.form-3 .form-control-submit-button:hover {
+.contact-details .form-control-submit-button:hover {
 	border: 0.125rem solid #ffedd0;
 	background-color: #ffedd0;
 }
@@ -2030,7 +2030,7 @@ a:hover.back-to-top {
 
 
 	/* Contact */
-	.form-3 .text-container {
+	.contact-details .text-container {
 		margin-bottom: 0;
 	}
 	/* end of contact */
@@ -2150,7 +2150,7 @@ a:hover.back-to-top {
 
 
 	/* Contact */
-	.form-3 .text-container {
+	.contact-details .text-container {
 		margin-top: 2.25rem;
 		margin-right: 3.5rem;
 	}
