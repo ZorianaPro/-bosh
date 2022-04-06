@@ -10,6 +10,11 @@ body, p {
 	font: 400 1rem/1.625rem "Montserrat", sans-serif;
 }
 
+img {
+    /* Only render when in viewport */
+    content-visibility: auto;
+  }
+
 .p-large {
 	font: 400 1.125rem/1.75rem "Montserrat", sans-serif;
 }
