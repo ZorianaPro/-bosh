@@ -717,6 +717,10 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
+.header.impressum {
+	padding-bottom: 4rem;
+}
+
 .header .countdown {
 	margin-bottom: 0.5rem;
 	color: #fff;
