@@ -75,6 +75,10 @@ h6 {
 	padding-left: 1.25rem;
 }
 
+.gallery {
+	padding-top: 2rem;
+}
+
 a {
 	color: #555;
 	text-decoration: underline;
@@ -1153,6 +1157,10 @@ input[type='checkbox'] {
 
 .cards .card-title {
 	margin-bottom: 0.5rem;
+}
+
+.cards .text-container {
+	text-align: center;
 }
 
 
