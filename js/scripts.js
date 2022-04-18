@@ -1,6 +1,15 @@
 (function($) {
     "use strict"; 
-	
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'G-N9BYZ4Y5F8', {
+		'anonymize_ip': true
+	});
 	/* Preloader */
 	$(window).on('load', function() {
 		var preloaderFadeOutTime = 100;
