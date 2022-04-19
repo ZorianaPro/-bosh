@@ -1,23 +1,17 @@
 
 (function($) {
     "use strict"; 
-	
 	window.dataLayer = window.dataLayer || [];
-	window['ga-disable-GA_MEASUREMENT_ID'] = true;
-	$(window["cookieyes-analytics"]).change(function() {
-		if (window["cookieyes-analytics"]) {
-			gtag('js', new Date());
+	// window['ga-disable-GA_MEASUREMENT_ID'] = true;
 
-			gtag('config', 'G-N9BYZ4Y5F8', {
-				'anonymize_ip': true
-			});
-		}
-	})
-	
 	function gtag() {
 		dataLayer.push(arguments);
 	}
+	gtag('js', new Date());
 
+	gtag('config', 'G-N9BYZ4Y5F8', {
+		'anonymize_ip': true
+	});
 	/* Preloader */
 	$(window).on('load', function() {
 		var preloaderFadeOutTime = 100;
