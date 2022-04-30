@@ -1,18 +1,5 @@
 
 (function($) {
-    "use strict"; 
-	window.dataLayer = window.dataLayer || [];
-	// window['ga-disable-GA_MEASUREMENT_ID'] = true;
-
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag('js', new Date());
-
-	gtag('config', 'G-N9BYZ4Y5F8', {
-		'anonymize_ip': true
-	});
-	
 	/* Preloader */
 	$(window).on('load', function() {
 		var preloaderFadeOutTime = 100;
@@ -23,6 +10,18 @@
 			}, 0);
 		}
 		hidePreloader();
+		 "use strict";
+		 window.dataLayer = window.dataLayer || [];
+		 // window['ga-disable-GA_MEASUREMENT_ID'] = true;
+
+		 function gtag() {
+		 	dataLayer.push(arguments);
+		 }
+		 gtag('js', new Date());
+
+		 gtag('config', 'G-N9BYZ4Y5F8', {
+		 	'anonymize_ip': true
+		 });
 	});
 
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
