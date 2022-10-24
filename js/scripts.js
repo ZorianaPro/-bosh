@@ -1,4 +1,3 @@
-
 (function($) {
 	/* Preloader */
 	$(window).on('load', function() {
