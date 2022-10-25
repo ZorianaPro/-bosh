@@ -21,6 +21,12 @@
 		 gtag('config', 'G-N9BYZ4Y5F8', {
 		 	'anonymize_ip': true
 		 });
+		 /* Demo purposes only */
+		 $(".hover").mouseleave(
+		 	function () {
+		 		$(this).removeClass("hover");
+		 	}
+		 );
 	});
 
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
