@@ -1174,6 +1174,7 @@ input[type='checkbox'] {
     width: 107%;
     object-fit: contain;
     object-position: center;
+	height: 100%;
 }
 
 .cards .fas,
@@ -1185,6 +1186,9 @@ input[type='checkbox'] {
 
 .cards .card-body {
 	padding: 0;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cards .card-title {
