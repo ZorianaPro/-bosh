@@ -1195,6 +1195,25 @@ input[type='checkbox'] {
 	margin-bottom: 0.5rem;
 }
 
+.card.default {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card.default:hover {
+    visibility: hidden;
+  opacity: 0;
+}
+
+.card.hover {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.card.hover:hover {
+  visibility: visible;
+  opacity: 1;
+}
 
 /****************************/
 /*     13. Testimonials     */
